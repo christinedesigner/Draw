@@ -1,0 +1,135 @@
+/*drawing-tool-test.css*/
+body{
+	margin:0px;
+	font: normal 85%/145% 'Coustard', sans-serif;
+	color: green;
+}
+.main {
+	background:url(images/drawing-bg.png) no-repeat;
+	width:1020px;
+	height:675px;
+	margin: 0 auto;
+}
+.markers{
+	margin-left:61px;
+	position:relative;
+	top:-22px;
+	width:845px;
+	display:inline-block;
+}
+.marker{
+	width:63px;
+	height:92px;
+	position:relative;
+	display:inline-block;		
+}
+.pink{
+	background:url(images/pink-marker.png) no-repeat;
+}
+.purple{
+	background:url(images/purple-marker.png) no-repeat;
+}
+.blue{
+	background:url(images/blue-marker.png) no-repeat;
+}
+.green{
+	background:url(images/green-marker.png) no-repeat;
+}
+.yellow{
+	background:url(images/yellow-marker.png) no-repeat;
+}
+.orange{
+	background:url(images/orange-marker.png) no-repeat;
+}
+.red{
+	background:url(images/red-marker.png) no-repeat;
+}
+.brown{
+	background:url(images/brown-marker.png) no-repeat;
+}
+.gray{
+	background:url(images/gray-marker.png) no-repeat;
+}
+.black{
+	background:url(images/black-marker.png) no-repeat;
+}
+.white{
+	background:url(images/white-marker.png) no-repeat;
+}
+.save{
+	background:url(images/save-buttom.png) no-repeat;
+	width:72px;
+	height:72px;
+	display:inline-block;
+	position:relative;	
+	top:-20px;
+	left:-6px;
+	
+}
+.save:hover {
+	background:url(images/save-buttom-selected.png) no-repeat;
+}
+#canvasDiv{
+	width:925px;
+	height:505px;
+	margin:-17px 60px 0px 50px; 
+}
+#bg{
+	position:absolute;
+	z-index:1;
+}
+#fg{
+	position:absolute;
+	z-index:2;
+}
+.eraser{
+	background:url(images/eraser.png) no-repeat;
+	width:96px;
+	height:55px;
+	display:inline-block;
+	margin:8px 0px 0px 628px;
+}
+.eraser-selected, .eraser:hover { 
+	background:url(images/eraser-selected.png) no-repeat;
+
+}
+.sizes{
+	display:inline-block;
+	margin:0px 0px 0px 67px;
+	position:relative;
+	top:-9px;
+}
+.size-huge{
+	background:url(images/size-huge.png) no-repeat;
+	width:47px;
+	height:47px;
+	display:inline-block;
+}
+.size-huge-selected, .size-huge:hover {
+	background:url(images/size-huge-selected.png) no-repeat;
+}
+.size-normal{
+	background:url(images/size-normal.png) no-repeat;
+	width:36px;
+	height:36px;
+	display:inline-block;
+	margin:0px 0px 6px 7px;
+}
+.size-normal-selected, .size-normal:hover {	
+	background:url(images/size-normal-selected.png) no-repeat;
+}
+.size-small{
+	background:url(images/size-small.png) no-repeat;
+	width:22px;
+	height:22px;
+	display:inline-block;
+	margin:0px 0px 13px 12px;
+}
+.size-small-selected, .size-small:hover {
+	background:url(images/size-small-selected.png) no-repeat;
+}
+
+#canvasDiv p {
+			text-align: center;
+			font-size: 1.2em;
+		}
